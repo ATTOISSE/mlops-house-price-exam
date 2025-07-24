@@ -1,0 +1,25 @@
+{
+  "random_forest": {
+    "r2_score": -0.7849409769362958,
+    "mse": 83460364619.98969,
+    "best_params": {
+      "max_depth": 10,
+      "min_samples_split": 5,
+      "n_estimators": 100
+    }
+  },
+  "xgboost": {
+    "r2_score": -0.06344321935568531,
+    "mse": 49724534305.0068,
+    "best_params": {
+      "learning_rate": 0.01,
+      "max_depth": 10,
+      "n_estimators": 100
+    }
+  },
+  "linear_regression": {
+    "r2_score": 0.4071103783042306,
+    "mse": 27722364294.123493,
+    "best_params": {}
+  }
+}

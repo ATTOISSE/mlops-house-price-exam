@@ -3,3 +3,8 @@ numpy
 scikit-learn
 xgboost
 joblib
+pydantic
+fastapi
+uvicorn
+streamlit
+requests
