@@ -14,7 +14,8 @@ import json
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-path = '../data/clean_data.csv'
+base_dir = os.path.dirname(__file__)
+path = os.path.join(base_dir, '..', 'data', 'clean_data.csv')
 
 def train_and_save_models(data_file=path):
     """
